@@ -1,0 +1,8 @@
+#+DATE: {{ .Date }}
+#+DRAFT: true
+#+TITLE: {{ replace .File.ContentBaseName "-" " " | title }}
+#+CATEGORIY: default
+#+KEYWORDS[]:
+#+DESCRIPTION:
+
+* {{ replace .File.ContentBaseName "-" " " | title }}
